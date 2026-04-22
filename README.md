@@ -54,13 +54,13 @@ See the README inside each folder for full setup and build instructions:
 
 ## ⚙️ Detection Pipeline
 
-1. **ROI crop** – focus on relevant region, remove ground
-2. **Outlier removal** – clean noise from the point cloud
-3. **Voxel downsample** – reduce density for performance
-4. **DBSCAN clustering** – group points into candidate objects
-5. **PCA feature extraction** – compute length, width, orientation
-6. **Best cluster selection** – score by thinness and length
-7. **Classification** – OPEN/CLOSED based on 80° angle threshold
+1. ROI crop – focus on relevant region, remove ground
+2. Outlier removal – clean noise from the point cloud
+3. Voxel downsample – reduce density for performance
+4. DBSCAN clustering – group points into candidate objects
+5. PCA feature extraction – compute length, width, orientation
+6. Best cluster selection – score by thinness and length
+7. Classification – OPEN/CLOSED based on 80° angle threshold
 
 ---
 
@@ -79,8 +79,8 @@ the 10 Hz target, but differ significantly in speed.
 
 Algorithm outputs verified identical (same cluster, same angle, same state).
 
-> **C++** is recommended for production and embedded systems.  
-> **Python** is recommended for prototyping and algorithm development.
+> C++ is recommended for production and embedded systems.  
+> Python is recommended for prototyping and algorithm development.
 
 ---
 
