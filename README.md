@@ -42,7 +42,6 @@ LiDAR_barrier_arm/
 └── README.md
 ```
 
----
 
 ## 🚀 Quick Start
 
@@ -50,7 +49,6 @@ See the README inside each folder for full setup and build instructions:
 - `alg_Python/README.md`
 - `alg_C++/README.md`
 
----
 
 ## ⚙️ Detection Pipeline
 
@@ -62,7 +60,6 @@ See the README inside each folder for full setup and build instructions:
 6. Best cluster selection – score by thinness and length
 7. Classification – OPEN/CLOSED based on 80° angle threshold
 
----
 
 ## 📊 C++ vs Python Performance
 
@@ -82,8 +79,6 @@ Algorithm outputs verified identical (same cluster, same angle, same state).
 > C++ is recommended for production and embedded systems.  
 > Python is recommended for prototyping and algorithm development.
 
----
-
 ## 🔧 Requirements
 
 |         | Python                                  | C++               |
@@ -97,4 +92,3 @@ Algorithm outputs verified identical (same cluster, same angle, same state).
 ## License
 
 Apache 2.0
-```
