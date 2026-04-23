@@ -6,7 +6,9 @@ point cloud data from a ROS2 bag using ROI cropping, statistical outlier removal
 DBSCAN clustering, and PCA-based geometry to classify barrier arm state 
 (OPEN/CLOSED) at 10 Hz.
 
-Available in both **Python** (`alg_Python/`) and **C++** (`alg_C++/`).
+LiDAR dataset can be found in this link - https://drive.google.com/drive/folders/1hwPxpl8aj0GkSstgmdUSosJ_4X74jQD6?usp=share_link.
+
+Available in both Python (`alg_Python/`) and C++ (`alg_C++/`).
 
 ## 🚀 Quick Start
 
@@ -28,7 +30,7 @@ See the README inside each folder for full setup and build instructions:
 
 ## 📊 C++ vs Python Performance
 
-Both implementations produce **identical algorithm outputs** and both achieve
+Both implementations produce identical algorithm outputs and both achieve
 the 10 Hz target, but differ significantly in speed.
 
 | Metric            | C++            | Python  |
@@ -36,8 +38,8 @@ the 10 Hz target, but differ significantly in speed.
 | Data loading      | 4 sec          | 102 sec |
 | Avg frame time    | 17 ms          | 88 ms   |
 | FPS               | 10.00 Hz       | 9.98 Hz |
-| Startup speedup   | **25x faster** | –       |
-| Per-frame speedup | **5x faster**  | –       |
+| Startup speedup   | 25x faster | –       |
+| Per-frame speedup | 5x faster  | –       |
 
 Algorithm outputs verified identical (same cluster, same angle, same state).
 
