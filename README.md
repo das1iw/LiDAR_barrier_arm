@@ -8,40 +8,6 @@ DBSCAN clustering, and PCA-based geometry to classify barrier arm state
 
 Available in both **Python** (`alg_Python/`) and **C++** (`alg_C++/`).
 
----
-
-## 📁 Repository Structure
-
-```
-LiDAR_barrier_arm/
-    {alg_Python/          # Python implementation
-        {algorithm_node.py
-        clustering.py
-        geometry.py
-        preprocess.py
-        reader.py}
-    alg_C++/             # C++ implementation
-    CMakeLists.txt
-    package.xml
-    include/barrier_detection/
-        {clustering.hpp
-        geometry.hpp
-        preprocess.hpp
-        reader.hpp}
-    src/
-        {algorithm_node.cpp
-        clustering.cpp
-        geometry.cpp
-        preprocess.cpp
-        reader.cpp}
-    rosbag2_lidar_data
-        {metadata.yaml
-        rosbag2_2026_04_02-10_31_45_0.db3}
-    LICENSE
-    README.md}
-```
-
-
 ## 🚀 Quick Start
 
 See the README inside each folder for full setup and build instructions:
