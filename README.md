@@ -1,5 +1,9 @@
 # LiDAR Barrier Arm Detection
 
+## Language
+- English (this file)
+- Русский → [README_RU.md](README_RU.md)
+
 A ROS2 pipeline for real-time LiDAR-based barrier arm detection. Processes 3D 
 point cloud data from a ROS2 bag using ROI cropping, statistical outlier removal, 
 DBSCAN clustering, and PCA-based geometry to classify barrier arm state 
