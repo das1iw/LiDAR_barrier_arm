@@ -11,8 +11,8 @@ LiDAR dataset can be found in this link - https://drive.google.com/drive/folders
 Available in both Python (`alg_Python/`) and C++ (`alg_C++/`).
 
 ![Demo](media/IMG_8195.jpg)
-![Demo](media/IMG_8196.jpg)
-![Demo](media/IMG_8197.jpg)
+![Demo1](media/IMG_8196.jpg)
+![Demo2](media/IMG_8197.jpg)
 
 ## 🚀 Quick Start
 
