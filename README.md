@@ -14,31 +14,31 @@ Available in both **Python** (`alg_Python/`) and **C++** (`alg_C++/`).
 
 ```
 LiDAR_barrier_arm/
-    alg_Python/          # Python implementation
-        algorithm_node.py
+    {alg_Python/          # Python implementation
+        {algorithm_node.py
         clustering.py
         geometry.py
         preprocess.py
-        reader.py
+        reader.py}
     alg_C++/             # C++ implementation
     CMakeLists.txt
     package.xml
     include/barrier_detection/
-        clustering.hpp
+        {clustering.hpp
         geometry.hpp
         preprocess.hpp
-        reader.hpp
+        reader.hpp}
     src/
-        algorithm_node.cpp
+        {algorithm_node.cpp
         clustering.cpp
         geometry.cpp
         preprocess.cpp
-        reader.cpp
+        reader.cpp}
     rosbag2_lidar_data
-        metadata.yaml
-        rosbag2_2026_04_02-10_31_45_0.db3
+        {metadata.yaml
+        rosbag2_2026_04_02-10_31_45_0.db3}
     LICENSE
-    README.md
+    README.md}
 ```
 
 
