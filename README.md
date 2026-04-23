@@ -1,4 +1,3 @@
-<img width="1179" height="660" alt="IMG_8197" src="https://github.com/user-attachments/assets/deda88c4-171e-4d7b-b776-b946889105c5" />```markdown
 # LiDAR Barrier Arm Detection
 
 A ROS2 pipeline for real-time LiDAR-based barrier arm detection. Processes 3D 
@@ -11,8 +10,6 @@ LiDAR dataset can be found in this link - https://drive.google.com/drive/folders
 Available in both Python (`alg_Python/`) and C++ (`alg_C++/`).
 
 <img width="1179" height="659" alt="IMG_8195" src="https://github.com/user-attachments/assets/c0471808-8719-4109-8723-7140e7cfd6b2" />
-<img width="1179" height="638" alt="IMG_8196" src="https://github.com/user-attachments/assets/4c29307c-18c1-4b71-83f9-6ff4ece83b82" />
-<img width="1179" height="660" alt="IMG_8197" src="https://github.com/user-attachments/assets/1ed6bf16-8a89-4f42-8828-40dcf972d954" />
 
 
 ## 🚀 Quick Start
